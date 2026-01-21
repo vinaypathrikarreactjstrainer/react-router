@@ -2,6 +2,7 @@ import React from "react";
 import { useFormStatus } from "react-dom";
 import UpdatedObj from "../updation/UpdatedObj";
 import UpdatedArray from "../updation/UpdatedArray";
+import Transition from "./Transition";
 
 // SignInForm Component
 const SignInForm = () => {
@@ -39,6 +40,7 @@ const Contact = () => {
       <form action={onFormSubmit}>
         <SignInForm />
       </form>
+      <Transition />
       {/* <UpdatedObj /> */}
       <hr />
       {/* <UpdatedArray /> */}
